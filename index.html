@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
-    <div id="unity-container" width=337 height=600>
+    <div id="unity-container">
       <canvas id="unity-canvas" width=337 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
@@ -57,12 +57,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/SkillusWeb2.loader.js";
+      var loaderUrl = buildUrl + "/web.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/SkillusWeb2.data",
-        frameworkUrl: buildUrl + "/SkillusWeb2.framework.js",
-        codeUrl: buildUrl + "/SkillusWeb2.wasm",
+        dataUrl: buildUrl + "/web.data",
+        frameworkUrl: buildUrl + "/web.framework.js",
+        codeUrl: buildUrl + "/web.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Skillus",
         productName: "Dev24Aban",
