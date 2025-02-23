@@ -1,9 +1,9 @@
-const cacheName = "Skillus-Dev24Aban-1.12";
+const cacheName = "Skillus-اسکیلاس-1.12";
 const contentToCache = [
-    "Build/web7Azar.loader.js",
-    "Build/web7Azar.framework.js",
-    "Build/web7Azar.data",
-    "Build/web7Azar.wasm",
+    "Build/Web14Bahman.loader.js",
+    "Build/Web14Bahman.framework.js",
+    "Build/Web14Bahman.data",
+    "Build/Web14Bahman.wasm",
     "TemplateData/style.css"
 
 ];
